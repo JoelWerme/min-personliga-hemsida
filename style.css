@@ -6,11 +6,24 @@ body {
 header {
   font-family: fantasy;
   padding: 8px;
-  background-color: rgb(233, 205, 168);
+  background-color: white;
   color: black;
 }
 
 a {
   font-family: fantasy;
   color: black;
+}
+
+#uppvaxt {
+  background-color: transparent;
+  border: 4px black;
+  display: block;
+}
+
+#Bild1 {
+  background-color: black;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
 }
