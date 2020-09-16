@@ -5,9 +5,9 @@ body {
 
 header {
   font-family: fantasy;
-  padding: 8px;
-  background-color: white;
-  color: black;
+  padding: 1vw;
+  background-color: rebeccapurple;
+  color: white;
 }
 
 a {

@@ -1,16 +1,53 @@
-#index {
+body {
+  background-color: thistle;
   margin: 0;
   padding: 0;
 }
 
 header {
   font-family: fantasy;
-  padding: 8px;
-  background-color: white;
-  color: black;
+  padding: 1vw;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+/*#meny {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1vw;
+}*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rebeccapurple;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: thistle;
 }
 
 a {
   font-family: fantasy;
-  color: black;
+  color: white;
+}
+
+#starttext {
+  font-family: fantasy;
+  color: white;
+  padding: 1vw;
 }
