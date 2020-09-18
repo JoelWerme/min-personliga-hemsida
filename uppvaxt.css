@@ -1,4 +1,5 @@
 body {
+  background-color: thistle;
   margin: 0;
   padding: 0;
 }
@@ -10,20 +11,49 @@ header {
   color: white;
 }
 
+/*#meny {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1vw;
+}*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rebeccapurple;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.5vw 2vw;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: thistle;
+  color: black;
+}
+
 a {
   font-family: fantasy;
-  color: black;
+  color: white;
 }
 
 #uppvaxt {
   background-color: transparent;
-  border: 4px black;
+  border: 2vw white;
   display: block;
 }
 
-#Bild1 {
-  background-color: black;
-  padding: 4px;
+#text1 {
   display: flex;
-  flex-direction: column;
+  color: white;
 }

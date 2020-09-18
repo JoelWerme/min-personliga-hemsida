@@ -11,43 +11,30 @@ header {
   color: white;
 }
 
-/*#meny {
+#meny {
   display: flex;
-  justify-content: space-evenly;
-  padding: 1vw;
-}*/
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rebeccapurple;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: thistle;
 }
 
 a {
   font-family: fantasy;
   color: white;
+  margin-right: 10vw;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: thistle;
+  color: black;
 }
 
 #starttext {
   font-family: fantasy;
   color: white;
   padding: 1vw;
+}
+
+#text1 {
+  display: flex;
+  color: white;
 }

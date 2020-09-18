@@ -1,0 +1,12 @@
+body {
+  background-color: thistle;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: fantasy;
+  padding: 1vw;
+  background-color: rebeccapurple;
+  color: white;
+}
