@@ -2,12 +2,13 @@ body {
   background-color: thistle;
   margin: 0;
   padding: 0;
+  background-image: url(bakgrundsbild.jpg);
 }
 
 header {
   font-family: fantasy;
   padding: 1vw;
-  background-color: rebeccapurple;
+  background-color: rgba(0, 0, 0, 0.63);
   color: white;
 }
 
@@ -21,20 +22,27 @@ a {
   margin-right: 10vw;
   padding: 1vw;
   text-decoration: none;
+  transition: all 0.4s ease 0s;
 }
 
 a:hover {
-  background-color: thistle;
+  background-color: rgba(245, 245, 245, 0.63);
   color: black;
+  border-radius: 20px;
 }
 
-#starttext {
+.textruta {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 100px;
   font-family: fantasy;
   color: white;
   padding: 1vw;
+  display: flex;
 }
 
-#text1 {
-  display: flex;
-  color: white;
+#Bild1 {
+  border: 0.2vw solid black;
+  height: 10vw;
+  width: 20vw;
+  margin: 5vw 0;
 }
