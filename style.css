@@ -69,9 +69,28 @@ a:hover {
   border-radius: 20px;
 }
 
+.rubriker {
+  padding: 0 5vw;
+}
+
+.lista {
+  display: flex;
+  /* align-items: center; */
+}
+
+.lista img {
+  height: 15vw;
+  width: 15vw;
+  padding-right: 2vw;
+  padding-top: 1.7vw;
+  /* align-self: flex-start; */
+}
+
 footer {
   position: relative;
-  background-color: solid rgba(0, 0, 0, 0.63);
+  padding: 0.2vw;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
   display: flex;
   justify-content: center;
   align-self: flex-end center;
