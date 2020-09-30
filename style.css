@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(bakgrundsbild.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -31,18 +34,45 @@ a:hover {
   border-radius: 20px;
 }
 
-.textruta {
+.mainblock {
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 100px;
   font-family: fantasy;
   color: white;
   padding: 1vw;
   display: flex;
+  flex-direction: column;
+}
+
+.textruta1 {
+  display: flex;
+  align-items: center;
+}
+
+.textruta2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 #Bild1 {
-  border: 0.2vw solid black;
   height: 10vw;
   width: 20vw;
-  margin: 5vw 0;
+  margin: 0 2.5vw;
+  border-radius: 20px;
+}
+
+#Bild2 {
+  height: 10vw;
+  width: 10vw;
+  margin: 0 2.5vw;
+  border-radius: 20px;
+}
+
+footer {
+  position: relative;
+  background-color: solid rgba(0, 0, 0, 0.63);
+  display: flex;
+  justify-content: center;
+  align-self: flex-end center;
 }
